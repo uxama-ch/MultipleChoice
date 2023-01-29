@@ -1,0 +1,14 @@
+ 
+Create database Code_School;
+
+
+Create table Users
+(
+		userID int identity(1,1),
+		userName nvarchar(100) not null,
+		userPassword nvarchar(100) not null,
+		userMarks int(4)
+	
+);
+
+
